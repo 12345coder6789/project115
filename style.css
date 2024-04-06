@@ -1,0 +1,22 @@
+h3{
+    font-size:25px !important;
+
+}
+.btn-success:hover{
+    background-color:red;
+}
+body{
+    background: linear-gradient(0deg, rgba(245,189,189,1) 2%, rgba(229,66,214,1) 40%, rgba(189,7,199,1) 75%, rgba(112,3,108,1) 97%);
+}
+canvas{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+   height: 400px;
+width: 450px;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 38px rgb(255, 214, 64);}
+    to{box-shadow:1px 1px 38px rgb(108, 15, 110);}
+}
